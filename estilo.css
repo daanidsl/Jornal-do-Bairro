@@ -1,0 +1,129 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #9A0913;
+}
+
+h1{
+    color: #004B7A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    animation: h1 20s ease-out infinite;
+}
+
+@keyframes h1{
+    0%{
+        color:#004B7A;
+    }
+    50%{
+        color:#B2A706;
+        transform: translate (10px);
+    }
+    100%{
+        color:#2A2B2E;
+        transform: translate (-10px);
+    }
+}
+
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #003F66;
+}
+    
+h3{
+    text-align: center;
+    color: #003F66;
+}
+
+.curiosidades, .esportes, .noticias, .cultura{
+    border: 2px #2A2B2E solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;  
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 25px;
+    margin-left: 70px;
+    border: 2px solid #2A2B2E;
+    border-radius: 10px;
+}
+
+p{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #004B7A;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #004B7A;
+    border-bottom: 2px solid #004B7A;
+}
+
+main{
+    font-size: 18px;
+    color: #2A2B2E;
+    background-color: #D6D6D6;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+a:visited {
+    color: #2A2B2E; }
+
+a:link{
+    color: #2A2B2E;
+
+}
+
+.div{
+    border: 2px #2A2B2E solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+
+iframe{
+    text-align: center;
+    height: 315px;
+    width: 560px; 
+    border: 2px #2A2B2E solid;
+    border-radius: 10px;
+}
+
+.alinharAoCentro{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    color: #2A2B2E;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
